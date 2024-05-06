@@ -1,0 +1,21 @@
+deleteShadowObjects(() => {
+            allFrames[activeFrameVal.data_num].json = convertToJson(canvas);
+            collectData()
+        })
+
+};
+    const collectData =()=>{
+        let svgs = document.getElementsByClassName('svg-path');
+        console.log('svgs',`${svgs}`)
+        let datals=  {
+            frames:frames,
+            shadowFrames:shadowFrames,
+            canvasWidth:canvas.width,
+            canvasHeight:canvas.height,
+            svgPaths:svgPathElementss,
+        }
+        api.post('/',{
+            data:datals
+        })
+
+    }

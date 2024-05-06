@@ -1,0 +1,44 @@
+{
+  "name": "easycoachvideo",
+  "version": "1.0.0",
+  "description": "\"easyTacticsBoard video generator\"",
+  "main": "index.js",
+  "engines": {
+    "node": "16.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.208.0",
+    "@playwright/test": "^1.28.1",
+    "aws-sdk": "^2.1252.0",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.10.1",
+    "canvas-to-buffer": "^2.0.0",
+    "ccapture.js-npmfixed": "^1.1.0",
+    "config": "^3.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-winston": "^4.2.0",
+    "fabric": "^4.6.0",
+    "ffmpeg-static": "^5.1.0",
+    "ffprobe-static": "^3.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsdom": "^20.0.1",
+    "nodemon": "^2.0.3",
+    "open": "^8.4.0",
+    "point-at-length": "^1.1.0",
+    "socket.io": "^4.5.3",
+    "unique-filename": "^3.0.0",
+    "webm-to-mp4": "^1.0.0",
+    "winston": "^3.8.2",
+    "xvfb": "^0.4.0"
+  }
+}
